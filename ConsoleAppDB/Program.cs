@@ -19,7 +19,7 @@ namespace ConsoleAppDB
             //https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommand(v=vs.110).aspx
 
             string conn =
-                "Server = tcp:easj2016100.database.windows.net,1433; Initial Catalog = HotelDB; Persist Security Info = False; User ID = martin; Password =Pass1234; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30";
+                "Server = tcp:alla7421.database.windows.net,1433; Initial Catalog = alla7421; Persist Security Info = False; User ID = alla7421; Password =Password0503; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30";
 
             using (SqlConnection databaseConnection = new SqlConnection(conn))
             {
