@@ -35,6 +35,7 @@ namespace ConsoleAppDB
                             string klasse = reader.GetString(2);
                             // normally you would not show the ID to the user
                             Console.WriteLine(id + " " + name + " " + name + " " + klasse);
+                            Console.WriteLine("Hello");
                         }
 
                     }
